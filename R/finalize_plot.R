@@ -38,9 +38,9 @@ create_footer <- function (source_name, logo_image_path) {
 #'  which needs to be a PNG file - defaults to BBC blocks image that sits within the data folder of your package
 #' @return (Invisibly) an updated ggplot object.
 
-#' @keywords finalise_plot
+#' @keywords finalize_plot
 #' @examples
-#' finalise_plot(plot_name = myplot,
+#' finalize_plot(plot_name = myplot,
 #' source = "The source for my data",
 #' save_filepath = "filename_that_my_plot_should_be_saved_to-nc.png",
 #' width_pixels = 640,

@@ -1,13 +1,13 @@
 #' Add Waapihk theme to ggplot chart
 #'
 #' This function allows you to add the Waapihk theme to your ggplotgraphics.
-#' @keywordswaapihk_style 
+#' @keywordswaapihk_style
 #' @export
 #' @examples
 #' line <- ggplot(line_df, aes(x = year, y = lifeExp)) +
 #' geom_line(colour = "#007f7f", size = 1) +
 #' geom_hline(yintercept = 0, size = 1, colour="#333333") +
-#' bbc_style()
+#' waapihk_style()
 
 waapihk_style <- function() {
   font <- "Helvetica"
