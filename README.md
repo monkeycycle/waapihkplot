@@ -12,12 +12,12 @@ If you do not have the `devtools` package installed, you will have to run the fi
 
 ```
 # install.packages('devtools')
-devtools::install_github('bbc/waapihkplot')
+devtools::install_github('monkeycycle/waapihkplot')
 ```
 
 ## Using the functions
 
-The package has two functions for plots: `bbc_style()` and `finalise_plot`.
+The package has two functions for plots: `waapihk_style()` and `finalise_plot`.
 
 Detailed examples on how to use the functions included within the `waapihkplot` package to produce graphics are included in the [R cookbook](https://bbc.github.io/rcookbook/), as well as a more general reference manual for working with `ggplot2`.
 
